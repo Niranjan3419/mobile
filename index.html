@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile App Wireframing</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #eef4ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      width: 340px;
+      background: white;
+      padding: 30px;
+      border-radius: 14px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .number {
+      background: #f0f5ff;
+      color: #2563eb;
+      padding: 18px 22px;
+      border-radius: 12px;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .status {
+      background: #f0f5ff;
+      color: #2563eb;
+      padding: 12px 18px;
+      border-radius: 25px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .date-row {
+      margin-top: 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #52627a;
+      border-bottom: 1px dashed #d6dce8;
+      padding-bottom: 20px;
+    }
+
+    .days {
+      background: #bbf7d0;
+      color: #047857;
+      padding: 8px 12px;
+      border-radius: 20px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    h2 {
+      color: #172033;
+      margin-top: 25px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: #172033;
+      line-height: 1.5;
+    }
+
+    .blue {
+      color: #2563eb;
+      font-weight: bold;
+    }
+
+    .green {
+      color: #00b86b;
+      font-weight: bold;
+    }
+
+    ul {
+      padding-left: 22px;
+      color: #39465e;
+      line-height: 1.7;
+    }
+
+    button {
+      display: block;
+      margin: 30px auto 0;
+      background: #2563eb;
+      color: white;
+      border: none;
+      padding: 16px 35px;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="top">
+      <div class="number">1</div>
+      <div class="status">AVAILABLE</div>
+    </div>
+
+    <div class="date-row">
+      <div>📅 Due Date: <b>08 Jun 2026</b></div>
+      <div class="days">1 Days Left</div>
+    </div>
+
+    <h2>Mobile App Wireframing</h2>
+
+    <p>Design low-fidelity wireframes for a mobile application.</p>
+
+    <p class="blue">Key Features:</p>
+
+    <ul>
+      <li>Conduct basic user research to define user needs</li>
+      <li>Create user personas and user flows</li>
+      <li>Design low-fidelity wireframes using Figma or Adobe XD</li>
+      <li>Document the design thinking process</li>
+    </ul>
+
+    <p class="green">Expected Outcome:</p>
+
+    <p>Understand early-stage design planning and user flow creation.</p>
+
+    <button onclick="submitWork()">Submit Work</button>
+  </div>
+
+  <script>
+    function submitWork() {
+      alert("Your work has been submitted successfully!");
+    }
+  </script>
+
+</body>
+</html>
